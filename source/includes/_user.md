@@ -39,7 +39,7 @@ profile_image | no | Base64 | - | The  of the user
 location | yes | String | - | The location of the user
 max_amount_of_hours | yes | Integer | - | The max amount of hours a user may work
 [role](#role-parameter) | yes | String | - | The role of the user
-skills | yes(empty allowed) | Array | - | List of id's of the skills a user possesses
+skills | yes (empty allowed) | Array | - | List of id's of the skills a user possesses
 
 ### Role parameter
 You can choose from
@@ -55,7 +55,7 @@ CLIENT | This role is given if a user is a client from a specific employment age
 > The returned JSON
 
 ```json
-{
+[
   {
     "id": "00329c9d-cea0-4c32-ae69-6002222d32ec",
     "username": "test6",
@@ -126,7 +126,7 @@ CLIENT | This role is given if a user is a client from a specific employment age
         }
     ]
   }
-}
+]
 ```
 > With a return code 200
 
