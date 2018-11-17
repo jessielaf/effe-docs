@@ -2,7 +2,7 @@
 
 A skill is something a shift and a user can have. It determines if a user is fit to work in a shift
 
-## Creating
+## Create skill
 
 > The returned JSON
 
@@ -24,7 +24,7 @@ Parameter | Required | Type | Default | Description
 --------- | ------- | ------- | ------- | -----------
 name | yes | String | - | The name of the skill
 
-## List
+## List skills
 
 > The returned JSON
 
@@ -47,7 +47,7 @@ List of skills
 ### Request
 `GET /skill/`
 
-## Retrieve
+## Retrieve skill
 
 Getting a single skill
 

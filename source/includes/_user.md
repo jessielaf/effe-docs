@@ -1,6 +1,6 @@
 # User
 
-## Creating
+## Create user
 
 > The returned JSON
 
@@ -50,7 +50,7 @@ TEMP_WORKER | This role is given if the user is a temp worker or flex worker
 EMPLOYMENT_AGENCY | This role is given if the user is a employee of a employment agency
 CLIENT | This role is given if a user is a client from a specific employment agency
 
-## List
+## List users
 
 > The returned JSON
 
@@ -135,7 +135,7 @@ List of users
 ### Request
 `GET /user/`
 
-## Retrieve
+## Retrieve user
 
 Getting a single user
 

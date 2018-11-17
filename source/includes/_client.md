@@ -2,7 +2,7 @@
 
 A client is a company in which an user with the role CLIENT can operate. You can see this as the assignment giver for a shift
 
-## Creating
+## Create client
 
 > The returned JSON
 
@@ -24,7 +24,7 @@ Parameter | Required | Type | Default | Description
 --------- | ------- | ------- | ------- | -----------
 name | yes | String | - | The name of the client
 
-## List
+## List clients
 
 > The returned JSON
 
@@ -47,7 +47,7 @@ List of clients
 ### Request
 `GET /client/`
 
-## Retrieve
+## Retrieve client
 
 Getting a single client
 

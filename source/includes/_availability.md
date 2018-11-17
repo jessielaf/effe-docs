@@ -2,7 +2,7 @@
 
 A availability is a company in which an user with the role CLIENT can operate. You can see this as the assignment giver for a shift
 
-## Creating
+## Create availability
 
 > The returned JSON
 
@@ -43,7 +43,7 @@ Parameter | Required | Type | Default | Description
 start | yes | Date (YYYY-MM-DDTHH:mm) | - | Start of the availability
 end | yes | Date (YYYY-MM-DDTHH:mm) | - | End of the availability
 
-## List
+## List availabilities
 
 > The returned JSON
 

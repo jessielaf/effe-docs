@@ -21,4 +21,4 @@ search: true
 ---
 
 # Introduction
-Welcome to the Rest API from Effe. All urls in which a Effe application is used use `HTTPS`
+Welcome to the Rest API of Effe. All urls in which a Effe application is used uses `HTTPS`

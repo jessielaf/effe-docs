@@ -2,7 +2,7 @@
 
 A shift is a assignment in which a specific time box can be set
 
-## Create
+## Create shift
 
 ```json
 {
@@ -31,7 +31,7 @@ end | yes | Date (YYYY-MM-DDTHH:mm) | - | End of the shift
 client | yes | String | - | The id of the client
 skills | yes (empty allowed) | Array | - | Id's of the skills the employees of the shift need
 
-## List
+## List shifts
 
 > The returned JSON
 
@@ -66,7 +66,7 @@ List of shifts
 ### Request
 `GET /shift/`
 
-## Retrieve
+## Retrieve shift
 
 Getting a single shift
 
