@@ -25,7 +25,7 @@ A availability is a company in which an user with the role CLIENT can operate. Y
 Create availability for a user
 
 ### Request
-`POST /availability/<string:user_id>/`
+`PUT /availability/<string:user_id>/`
 
 ### Path parameter
 Parameter | Description
