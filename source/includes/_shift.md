@@ -38,23 +38,39 @@ skills | yes (empty allowed) | Array | - | Id's of the skills the employees of t
 ```json
 [
   {
-    "id": "e09929f8-91e8-45fb-95c0-fef48d92a0f0",
-    "start": "2018-11-23T07:00:00.000000",
-    "end": "2018-11-23T11:00:00.000000",
-    "client": "25c9e981-27eb-4fd6-88b8-a56fd1182b49",
-    "skills": [
-      "7ac0419f-a139-4005-b22a-8acbebc0caf3",
-      "b068eb9d-cd38-4e32-b756-fa4c6ace7243"
+    "id":"0afba225-f22d-4722-b044-c763d69e26a6",
+    "title":"Test shift 29",
+    "start":"2018-11-05T11:36:43.069257",
+    "end":"2018-11-05T15:36:43.069257",
+    "amount_of_minutes":240,
+    "client":"eb54efa9-31b9-4ea6-a33b-26309dd2ca14",
+    "skills":[
+      {
+        "id":"770e851f-352d-4951-b9b6-78bdc01fb1b9",
+        "name":"> 2 jaar ervaring"
+      },
+      {
+        "id":"f16d1875-5a43-44fc-9b8d-33f3a5e1ad6f",
+        "name":"Public speaking"
+      }
     ]
   },
   {
-    "id": "6ab8fc45-d358-40c6-9fe0-2cb0d60a6279",
-    "start": "2018-11-25T08:00:00.000000",
-    "end": "2018-11-23T12:00:00.000000",
-    "client": "25c9e981-27eb-4fd6-88b8-a56fd1182b49",
-    "skills": [
-      "b59ab513-0ed7-4232-882a-8707874e92b2",
-      "b068eb9d-cd38-4e32-b756-fa4c6ace7243"
+    "id":"0e54421b-fece-41f9-9a18-57a85cd1b2a6",
+    "title":"Test shift 21",
+    "start":"2018-11-07T12:36:42.979309",
+    "end":"2018-11-07T16:36:42.979309",
+    "amount_of_minutes":240,
+    "client":"eb54efa9-31b9-4ea6-a33b-26309dd2ca14",
+    "skills":[
+      {
+        "id":"770e851f-352d-4951-b9b6-78bdc01fb1b9",
+        "name":"> 2 jaar ervaring"
+      },
+      {
+        "id":"f393f7ee-3520-49f3-9c2a-abbda1d09607",
+        "name":"Bier tappen"
+      }
     ]
   }
 ]
@@ -65,6 +81,11 @@ List of shifts
 
 ### Request
 `GET /shift/`
+
+### Path parameter
+Parameter | Required | Description
+--------- | -------  | -----------
+client-id | no | Gets the shifts but only of the given client
 
 ## Retrieve shift
 

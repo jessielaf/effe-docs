@@ -67,3 +67,9 @@ List of availability for a user
 
 ### Request
 `GET /availability/<string:user_id>/`
+
+### Path parameter
+Parameter | Required | Description
+--------- | -------  | -----------
+year | yes | The year in which the availability should be
+month | yes | The month in which the availability should be
